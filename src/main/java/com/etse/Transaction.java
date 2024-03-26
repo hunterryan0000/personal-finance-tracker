@@ -8,7 +8,7 @@ public class Transaction {
     private BigDecimal amount;
     private LocalDate date;
 
-    public Transaction(String type, BigDecimal amount,LocalDate date) {
+    public Transaction(String type, BigDecimal amount, LocalDate date) {
         this.type = type;
         this.amount = amount;
         this.date = date;

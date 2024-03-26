@@ -6,9 +6,8 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
-        TransactionManager tm =  new TransactionManager();
+        TransactionManager tm = new TransactionManager();
         Scanner input = new Scanner(System.in);
-
         boolean running = true;
 
         System.out.println("***********************************************************************************************************************");
@@ -19,19 +18,17 @@ public class Main {
         System.out.println("***********************************************************************************************************************");
         System.out.println("***********************************************************************************************************************");
 
-
-        while (running){
+        while (running) {
             System.out.println();
             System.out.println("Choose an option: (1) Add Transaction (2) View Summary (3) Exit");
             int choice = input.nextInt();
             input.nextLine(); //consume next line
 
-            switch (choice){
+            switch (choice) {
                 case 1:
-
                     System.out.println("Add a transaction type: ");
                     String type = input.nextLine();
-                    if(!type.equalsIgnoreCase("Income") && !type.equalsIgnoreCase("Expense")){
+                    if (!type.equalsIgnoreCase("Income") && !type.equalsIgnoreCase("Expense")) {
                         throw new RuntimeException("Invalid input, please enter Income or Expense");
                     }
 
@@ -53,7 +50,6 @@ public class Main {
                 default:
                     System.out.println("Invalid option, please try again!");
             }
-
         }
         input.close();
     }
