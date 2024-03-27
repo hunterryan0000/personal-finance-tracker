@@ -9,10 +9,8 @@ import java.util.List;
 public class TransactionManager {
     List<Transaction> transactionList = new ArrayList<>();
 
-    public void addTransactions(String type,
-                                BigDecimal amount,
-                                LocalDate date) {
-        transactionList.add(new Transaction(type, amount, date));
+    public void addTransactions(Transaction t) {
+        transactionList.add(t);
     }
 
     public void printSummary() {
