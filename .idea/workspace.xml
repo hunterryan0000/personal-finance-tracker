@@ -32,7 +32,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../financial-tracker" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../te-curriculum-full-time-2024.1/java/module-2/03_Joins/exercise-final" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
@@ -43,7 +43,7 @@
       <recent name="com.etse" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.TransactionTest">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.etse.Main" />
       <module name="personal-finance-tracker" />
@@ -57,8 +57,41 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TransactionTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="personal-finance-tracker" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.etse.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.etse" />
+      <option name="MAIN_CLASS_NAME" value="com.etse.TransactionTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TransactionTest.getType" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="personal-finance-tracker" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.etse.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.etse" />
+      <option name="MAIN_CLASS_NAME" value="com.etse.TransactionTest" />
+      <option name="METHOD_NAME" value="getType" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TransactionTest" />
+        <item itemvalue="JUnit.TransactionTest.getType" />
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
