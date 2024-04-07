@@ -29,11 +29,11 @@ public class Main {
             System.out.println();
             System.out.println("Choose an option: (1) Add Transaction (2) View Summary (3) Exit");
             int choice = input.nextInt();
-            input.nextLine(); //consume next line
+            input.nextLine(); // Consume newline left-over
 
             switch (choice) {
                 case 1:
-                    System.out.println("Add a transaction type: ");
+                    System.out.println("Transaction type (Income/Expense): ");
                     String type = input.nextLine();
                     if (!type.equalsIgnoreCase("Income") && !type.equalsIgnoreCase("Expense")) {
                         System.out.println("Invalid input, please enter Income or Expense");
@@ -54,7 +54,9 @@ public class Main {
                     tm.addTransactions(new Transaction(type, amount, date));
                     break;
                 case 2:
-                    tm.printSummary();
+                    // Here we capture the summary string and print it
+                    String summary = tm.printSummary();
+                    System.out.println(summary);
                     break;
                 case 3:
                     running = false;

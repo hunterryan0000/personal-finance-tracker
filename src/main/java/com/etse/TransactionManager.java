@@ -13,7 +13,7 @@ public class TransactionManager {
         transactionList.add(t);
     }
 
-    public void printSummary() {
+    public String printSummary() {
         BigDecimal income = new BigDecimal(BigInteger.ZERO);
         BigDecimal expense = new BigDecimal(BigInteger.ZERO);
 
@@ -27,8 +27,10 @@ public class TransactionManager {
 
         }
 
-        System.out.println("Total income: $" + income);
-        System.out.println("Total expense: $" + expense);
-        System.out.println("Net Income: $" + income.subtract(expense));
+        return (
+                "Total income: $" + income + System.lineSeparator() +
+                        "Total expense: $" + expense + System.lineSeparator() +
+                        "Net Income: $" + income.subtract(expense)
+        );
     }
 }

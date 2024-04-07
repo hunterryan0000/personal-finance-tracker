@@ -13,8 +13,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="JUnit5 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -32,7 +32,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../te-curriculum-full-time-2024.1/java/module-2/03_Joins/exercise-final" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../te-curriculum-full-time-2024.1/java/module-2/18_19_20_Capstone/capstone-final" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
@@ -43,13 +43,13 @@
       <recent name="com.etse" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.TransactionTest">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.etse.Main" />
       <module name="personal-finance-tracker" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.etse.models.*" />
+          <option name="PATTERN" value="com.etse.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -57,7 +57,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TransactionTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TransactionManagerTest.printSummary" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="personal-finance-tracker" />
       <extension name="coverage">
         <pattern>
@@ -66,13 +66,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.etse" />
-      <option name="MAIN_CLASS_NAME" value="com.etse.TransactionTest" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="MAIN_CLASS_NAME" value="com.etse.TransactionManagerTest" />
+      <option name="METHOD_NAME" value="printSummary" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TransactionTest.getType" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TransactionManagerTest.testAddTransactions" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="personal-finance-tracker" />
       <extension name="coverage">
         <pattern>
@@ -81,8 +82,40 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.etse" />
-      <option name="MAIN_CLASS_NAME" value="com.etse.TransactionTest" />
-      <option name="METHOD_NAME" value="getType" />
+      <option name="MAIN_CLASS_NAME" value="com.etse.TransactionManagerTest" />
+      <option name="METHOD_NAME" value="testAddTransactions" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TransactionManagerTest.testPrintSummary" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="personal-finance-tracker" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.etse.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.etse" />
+      <option name="MAIN_CLASS_NAME" value="com.etse.TransactionManagerTest" />
+      <option name="METHOD_NAME" value="testPrintSummary" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TransactionManagerTest.testPrintSummary_EmptyTransactionList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="personal-finance-tracker" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.etse.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.etse" />
+      <option name="MAIN_CLASS_NAME" value="com.etse.TransactionManagerTest" />
+      <option name="METHOD_NAME" value="testPrintSummary_EmptyTransactionList" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -90,9 +123,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.TransactionTest" />
-        <item itemvalue="JUnit.TransactionTest.getType" />
         <item itemvalue="Application.Main" />
+        <item itemvalue="JUnit.TransactionManagerTest.testPrintSummary" />
+        <item itemvalue="JUnit.TransactionManagerTest.testAddTransactions" />
+        <item itemvalue="JUnit.TransactionManagerTest.printSummary" />
+        <item itemvalue="JUnit.TransactionManagerTest.testPrintSummary_EmptyTransactionList" />
       </list>
     </recent_temporary>
   </component>
