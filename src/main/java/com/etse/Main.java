@@ -52,6 +52,7 @@ public class Main {
                     LocalDate date = LocalDate.parse(input.nextLine());
 
                     tm.addTransactions(new Transaction(type, amount, date));
+                    System.out.println("Transaction added successfully!");
                     break;
                 case 2:
                     // Here we capture the summary string and print it
